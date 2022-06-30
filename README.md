@@ -31,6 +31,6 @@ m = L - C/2
 
 (R,G,B) = ((R'+m)×255, (G'+m)×255,(B'+m)×255)
 
-#Tela do programa
+# Tela do programa
 ![image](https://user-images.githubusercontent.com/38158565/176778423-31941922-0502-458a-a72f-7c631617fd21.png)
 
