@@ -1,0 +1,194 @@
+object Form1: TForm1
+  Left = 708
+  Height = 240
+  Top = 410
+  Width = 306
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 306
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object Edit1: TEdit
+    Left = 56
+    Height = 23
+    Top = 48
+    Width = 80
+    Alignment = taCenter
+    Color = clGradientInactiveCaption
+    MaxLength = 3
+    NumbersOnly = True
+    OnChange = Edit1Change
+    ParentShowHint = False
+    TabOrder = 0
+    Text = '0'
+  end
+  object Edit2: TEdit
+    Left = 56
+    Height = 23
+    Top = 80
+    Width = 80
+    Alignment = taCenter
+    Color = clGradientInactiveCaption
+    MaxLength = 3
+    NumbersOnly = True
+    TabOrder = 1
+    Text = '0'
+  end
+  object Edit3: TEdit
+    Left = 56
+    Height = 23
+    Top = 112
+    Width = 80
+    Alignment = taCenter
+    Color = clGradientInactiveCaption
+    MaxLength = 3
+    NumbersOnly = True
+    TabOrder = 2
+    Text = '0'
+  end
+  object Edit4: TEdit
+    Left = 176
+    Height = 23
+    Top = 48
+    Width = 80
+    Alignment = taCenter
+    Color = clGradientInactiveCaption
+    MaxLength = 3
+    NumbersOnly = True
+    TabOrder = 3
+    Text = '0'
+  end
+  object Edit5: TEdit
+    Left = 176
+    Height = 23
+    Top = 80
+    Width = 80
+    Alignment = taCenter
+    Color = clGradientInactiveCaption
+    MaxLength = 3
+    NumbersOnly = True
+    TabOrder = 4
+    Text = '0'
+  end
+  object Edit6: TEdit
+    Left = 176
+    Height = 23
+    Top = 112
+    Width = 80
+    Alignment = taCenter
+    Color = clGradientInactiveCaption
+    MaxLength = 3
+    NumbersOnly = True
+    TabOrder = 5
+    Text = '0'
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 25
+    Top = 48
+    Width = 12
+    Caption = 'R'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 25
+    Top = 80
+    Width = 14
+    Caption = 'G'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 24
+    Height = 25
+    Top = 112
+    Width = 12
+    Caption = 'B'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 272
+    Height = 25
+    Top = 48
+    Width = 15
+    Caption = 'H'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 272
+    Height = 25
+    Top = 80
+    Width = 11
+    Caption = 'S'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 272
+    Height = 25
+    Top = 112
+    Width = 10
+    Caption = 'L'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    OnClick = Label6Click
+  end
+  object Button1: TButton
+    Left = 56
+    Height = 25
+    Top = 152
+    Width = 80
+    Caption = 'RGB to HSI'
+    OnClick = Button1Click
+    TabOrder = 6
+  end
+  object Button2: TButton
+    Left = 176
+    Height = 25
+    Top = 152
+    Width = 80
+    Caption = 'HSI to RGB'
+    OnClick = Button2Click
+    TabOrder = 7
+  end
+end
