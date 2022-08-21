@@ -21,7 +21,7 @@ Cmin = min(R', G', B')
 # HSL-to-RGB
 When 0 ≤ H < 360, 0 ≤ S ≤ 1 and 0 ≤ L ≤ 1:
 
-C = (1 - |2L - 1|) × S
+$C = (1 - |2L - 1|) × S$
 
 X = C × (1 - |(H / 60°) mod 2 - 1|)
 
