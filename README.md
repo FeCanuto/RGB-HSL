@@ -1,16 +1,16 @@
 ﻿# RGB-to-HSL
  
-R' = R/255
+$R' = R/255$
 
-G' = G/255
+$G' = G/255$
 
-B' = B/255
+$B' = B/255$
 
-Cmax = max(R', G', B')
+$Cmax = max(R', G', B')$
 
-Cmin = min(R', G', B')
+$Cmin = min(R', G', B')$
 
-Δ = Cmax - Cmin
+$Δ = Cmax - Cmin$
 
 ![image](https://user-images.githubusercontent.com/38158565/176777736-7080b1fa-a706-4a07-8992-d6e4013a2e54.png)
 
@@ -25,7 +25,7 @@ $C = (1 - |2L - 1|) × S$
 
 $X = C × (1 - |((H / 60°) mod 2) - 1|)$
 
-$$m = L - C/2$$
+$m = L - C/2$
 
 ![image](https://user-images.githubusercontent.com/38158565/176778020-8be24a48-eaeb-4b76-9057-f7964baf3c52.png)
 
