@@ -23,13 +23,13 @@ When 0 ≤ H < 360, 0 ≤ S ≤ 1 and 0 ≤ L ≤ 1:
 
 $C = (1 - |2L - 1|) × S$
 
-X = C × (1 - |(H / 60°) mod 2 - 1|)
+$X = C × (1 - |(H / 60°) mod 2 - 1|)$
 
-m = L - C/2
+$m = L - C/2$
 
 ![image](https://user-images.githubusercontent.com/38158565/176778020-8be24a48-eaeb-4b76-9057-f7964baf3c52.png)
 
-(R,G,B) = $((R'+m)×255, (G'+m)×255,(B'+m)×255)$
+$(R,G,B) = ((R'+m)×255, (G'+m)×255,(B'+m)×255)$
 
 # Tela do programa
 ![image](https://user-images.githubusercontent.com/38158565/176778423-31941922-0502-458a-a72f-7c631617fd21.png)
