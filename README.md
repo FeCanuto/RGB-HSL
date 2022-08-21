@@ -25,7 +25,7 @@ $C = (1 - |2L - 1|) × S$
 
 $X = C × (1 - |((H / 60°) mod 2) - 1|)$
 
-$m = L - C/2$
+$$m = L - C/2$$
 
 ![image](https://user-images.githubusercontent.com/38158565/176778020-8be24a48-eaeb-4b76-9057-f7964baf3c52.png)
 
